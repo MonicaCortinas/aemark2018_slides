@@ -1,0 +1,251 @@
+---
+title: "Uso del Canal Online en función del Proceso de Compra: Un Estudio mediante Análisis de Fijación de la Mirada"
+subtitle: "Mónica Cortiñas, Rafael Cabeza, Raquel Chocarro, Arantxa Villanueva"
+author: "Aemark, 5 de Septiembre de 2018, Barcelona"
+output:
+  xaringan::moon_reader:
+    css: [rutgers, rutgers-fonts, propio.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+background-image: url("images/journey.jpg")
+background-position: 35% 35%
+class: rigth, top, inverse
+
+# Motivación: 
+
+--
+
+## Contexto **omnicanal**: customer journey cada vez más complejo
+
+--
+
+## Necesidad de comprender el **uso de los canales** en distintas etapas
+
+--
+
+## Mejorar la **experiencia** del cliente a lo largo del proceso
+
+---
+
+background-image: url("images/eye2.jpg")
+background-position: 50% 50%
+class: rigth, top, inverse
+
+# El Eye Tracking
+
+--
+
+## Técnica observacional que recoge **posiciones** y **movimientos** de pupilas
+
+--
+
+## Múltiples aplicaciones para medir la **atención**
+
+--
+
+## Atención al **canal online** en el *customer journey* para mejorar la experiencia con la web
+
+---
+
+class: rigth, top 
+
+# Estructura: 
+
+--
+
+## 1. Objetivos del trabajo
+
+## 2. Marco Conceptual
+
+## 3. Diseño de la investigación
+
+## 4. Resultados
+
+## 5. Conclusiones preliminares
+
+---
+class: middle
+
+# 1. Objetivos del trabajo
+
+### **<i class="fa question-circle"></i>** Efecto de la etapa de compra en los elementos de interés de un sitio web.
+
+--
+
+### **<i class="fa question"></i>** Efecto de la etapa de compra en el patrón de exploración.
+
+--
+
+### **<i class="fa question"></i>** Efecto de la etapa de compra en el tiempo de exploración.
+
+---
+class: middle
+
+# 2. Marco Conceptual (I)
+
+--
+
+## 1. Literatura de respuesta a elementos *atmosféricos*: Modelos **S-O-R**
+
+--
+
+## 2. Literatura sobre viaje del cliente y **etapas en el proceso de compra**
+
+--
+
+## 3. Literatura sobre **áreas de interés** en un sitio web 
+
+---
+
+class: middle
+
+## 2. Marco Conceptual (II): Proposiciones
+
+**<i class="fa fa-dice-one"></i>** Las tareas **más complejas** como la evaluación y selección de alternativas **requieren más tiempo** en el sitio web que las tareas más simples como la tarea de compra una vez realizada la selección.
+
+--
+
+**<i class="fa fa-dice-two"></i>** El **encabezado** del sitio web atrae más atención y tiene mayor capacidad de retención cuando el objetivo del individuo es la **evaluación de la web** que en las tareas orientadas a la compra.
+
+--
+
+**<i class="fa fa-dice-three"></i>** El **área de productos** del sitio web atrae más atención y tiene mayor capacidad de retención cuando el objetivo del individuo es la **evaluación de alternativas** y la **compra**.
+
+--
+
+**<i class="fa fa-dice-four"></i>** El **área de navegación** de servicios del sitio web atrae más atención y tiene mayor capacidad de retención cuando el objetivo del individuo es la **evaluación general** de la web y las **tareas postcompra**.
+
+
+---
+class: middle
+
+# 3. Diseño de la investigación
+
+--
+
+### Diseño experimental
+
+- **Independiente**: Etapa del proceso de compra: Evaluación de Alternativas, Compra, PostCompra + Control (evaluación de la web)
+- **Dependientes**: Tiempo en la tarea + Atención a cada área de interés (fijaciones totales y transiciones entre áreas)
+- **Control**: Categoría de producto (4 niveles), implicación, características personales
+
+--
+
+### Implementación
+
+- Diseño **intrasujetos**
+- Asignación **tarea x categoría** aleatoria (control de efecto aprendizaje)
+- Sitios web **simulados**: zapatillas deportivas, móviles, bolígrafos, discos duros
+- Estimación **modelos de efectos fijos** para controlar correlación intra-individuo
+
+---
+class: middle
+
+# 3. Diseño de la investigación (II). Aplicación
+
+--
+
+### **<i class="fa fa-cart-plus"></i>** Qualtrics para asignación de individuo a grupos aleatorios + Blogger para tiendas unidos por scripts de medición de tiempos.
+
+### **<i class="fa fa-eye"></i>** Ordenador de Sobremesa equipado con cámara + software [The Eye Tribe Tracker](http://theeyetribe.com/theeyetribe.com/about/index.html)
+
+### **<i class="fa fa-user"></i>** 58 estudiantes 4º curso invitados al laboratorio, 15' por persona aprox.
+
+---
+background-image: url("images/qualtrics.png")
+background-size: 350pt
+background-position: 50% 25%
+class: bottom, center, inverse
+
+
+# Ejemplo: Asignación de Tareas a las Tiendas
+
+---
+background-image: url("images/varufino.png")
+background-size: 500pt
+background-position: 50% 05%
+class: bottom, center, inverse
+
+# Ejemplo: Tienda de Zapatillas (misma plantilla, distinta paleta para todas)
+
+---
+background-image: url("images/plot1.png")
+background-size: 550pt
+background-position: 50% 60%
+class: top, center
+
+
+# 4. <small>Resultados: Patrones agregados por tarea </small>
+
+---
+background-image: url("images/Table2.png")
+background-size: 380pt
+background-position: 50% 65%
+class: top, center
+
+# 4. <small>Resultados: Modelo 1: Tiempo en cada tarea </small>
+---
+background-image: url("images/Table3.png")
+background-size: 550pt
+background-position: 50% 60%
+class: top, center
+
+# 4. <small>Resultados: Modelo 2: Fijaciones agregadas  </small>
+---
+
+background-image: url("images/Table4.png")
+background-size: 550pt
+background-position: 50% 65%
+class: top, center
+
+# 4. <small>Resultados: Modelo 3: Transiciones(A)  </small>
+---
+
+class: rigth, top
+
+# 5. Conclusiones preliminares
+
+--
+
+#### Tareas de evaluación de la web:
+- Más tiempo y más atención a todas las zonas
+- Más transiciones entre zonas
+
+--
+
+#### Evaluación de alternativas
+- Más tiempo y concentrado en la zona de productos
+
+--
+
+#### Compra de alternativa elegida:
+- Atención concentrada y tarea rápida
+
+--
+
+#### Postcompra:
+- Menos tiempo, más atención a la zona de menú
+- Más transiciones a otras zonas, dispersión de atención
+
+---
+
+class: title-slide-final, middle
+background-image: url("images/upnablanco.png")
+background-size: 100px
+background-position: 9% 15%
+
+## Gracias
+
+|                                                                                                  |                                   |
+| :-----------------------------------------------------------------------------------------       | :-------------------------------- |
+| <a href="mailto:mcortinas@unavarra.es"><i class="fa fa-envelope-o"></i> </a>                     |mcortinas@unavarra.es              |
+| <a href="http://eyetrackaemark18.updog.co/#1" target="_blank"><i class="fa fa-desktop"></i> </a>     |<a href="http://eyetrackaemark18.updog.co/#1" target="_blank"><span class="alternativo">EyeTrackAemark18.updog.co<span></a>||
+| <a href="https://EyeTrackAemark18.updog.co/attentiontoonlinechannels.pdf" target="_blank"><i class="fa fa-file"></i> </a>  |Full text                    |
+| <a href="https://twitter.com/MonicaCortinas" target="_blank"><i class="fa fa-twitter"></i> </a>  |@MonicaCortinas                    |
